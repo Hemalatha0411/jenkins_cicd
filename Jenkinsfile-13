@@ -13,7 +13,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 // Clone your repository from Git (modify this step to match your repo)
-                git branch: 'main', url: 'https://github.com/Hemalatha0411/jenkins-cicd-uc.git'
+                git branch: 'main', url: 'https://github.com/Hemalatha0411/jenkins-cicd.git'
             }
         }
 
